@@ -1,0 +1,18 @@
+@import url('https://fonts.asboy2035.com/PPAgrandir.css');
+@import url('https://fonts.asboy2035.com/PPNeueMachina.css');
+@import url('https://fonts.asboy2035.com/PPSupplyMono.css');
+
+body, p {
+  font-family: "PP Agrandir", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > * {
+  font-family: "PP Neue Machina", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --vp-font-family-mono: "PP Supply Mono", monospace;
+}

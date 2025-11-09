@@ -1,0 +1,19 @@
+{
+  "name": "asboy2035-guides",
+  "description": "My documentation for my apps, themes, and other thingies",
+  "author": {
+    "name": "ash",
+    "email": "ash@asboy2035.com",
+    "url": "https://asboy2035.com/"
+  },
+
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.24"
+  }
+}
