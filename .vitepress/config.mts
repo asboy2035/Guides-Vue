@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'Guides',
-  titleTemplate: ':title - Guides',
+  title: 'Guides β',
+  titleTemplate: ':title - Guides β',
   description: 'My documentation for my apps, themes, and other thingies',
   cleanUrls: true,
 
