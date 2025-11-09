@@ -2,6 +2,7 @@
 @import "fonts.css";
 @import "button.css";
 @import "home.css";
+@import "search.css";
 
 /* Custom Blocks */
 :root {
@@ -11,7 +12,40 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+.custom-block {
+  border-radius: 1.5rem !important;
+}
+
+/* Layout */
+.VPHome > .vp-doc {
+  margin-top: 3rem;
+}
+
 /* Search: Algolia */
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/* Code Blocks */
+div:has(pre.vp-code) {
+  border-radius: 1.5rem !important;
+}
+button.copy {
+  border-radius: 1rem !important;
+}
+span.lang {
+  top: 0.625rem !important;
+  right: 1rem !important;
+}
+
+/* Next/Prev Page Links */
+.pager-link {
+  border-radius: 1rem !important;
+}
+
+/* Page Nav */
+.outline-title {
+  font-size: 0.75rem !important;
+  text-transform: uppercase;
+  opacity: 0.5;
 }

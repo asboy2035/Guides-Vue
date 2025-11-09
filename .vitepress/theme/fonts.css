@@ -13,6 +13,10 @@ h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > * {
   font-style: normal;
 }
 
+h1.heading > .name {
+  font-size: 2rem;
+}
+
 :root {
   --vp-font-family-mono: "PP Supply Mono", monospace;
 }

@@ -9,3 +9,14 @@
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
+
+.DocSearch-Button {
+  border-radius: 1.5rem;
+}
+
+.DocSearch-Button .DocSearch-Button-Key {
+  border-radius: 1rem 0 0 1rem;
+}
+.DocSearch-Button .DocSearch-Button-Key + .DocSearch-Button-Key {
+  border-radius: 0 1rem 1rem 0
+}
